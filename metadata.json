@@ -1,0 +1,5 @@
+{
+  "name": "Packet Tracer: SysAdmin Defender",
+  "description": "A fast-paced network defense game. Route data packets to servers and malware to firewalls by toggling network switches. Watch out for encrypted traffic!",
+  "requestFramePermissions": []
+}

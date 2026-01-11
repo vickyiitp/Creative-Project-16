@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes" />
+    <link rel="canonical" href="https://vickyiitp.tech/games/packet-tracer" />
+    
+    <!-- SEO & Branding -->
+    <title>Packet Tracer | Network Defense Strategy Game</title>
+    <meta name="description" content="Play Packet Tracer, a cyberpunk network defense game. Route data packets, block malware, and protect servers in this high-speed strategy simulator by Vicky Kumar." />
+    <meta name="keywords" content="Packet Tracer, Network Game, SysAdmin Simulator, Strategy Game, Browser Game, Vicky Kumar, vickyiitp, React Game" />
+    <meta name="author" content="Vicky Kumar" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Packet Tracer | Defend the Network" />
+    <meta property="og:description" content="Route data. Block malware. Survive the surge. Play Packet Tracer now." />
+    <meta property="og:url" content="https://vickyiitp.tech/games/packet-tracer" />
+    <meta property="og:site_name" content="Vicky Kumar Games" />
+    <meta property="og:image" content="https://vickyiitp.tech/og-packet-tracer.jpg" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@vickyiitp" />
+    <meta name="twitter:creator" content="@vickyiitp" />
+    <meta name="twitter:title" content="Packet Tracer | Network Defense Game" />
+    <meta name="twitter:description" content="Play Packet Tracer. Route data, block malware. A game by Vicky Kumar." />
+    <meta name="twitter:image" content="https://vickyiitp.tech/og-packet-tracer.jpg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        background-color: #050505;
+        color: white;
+        overflow-x: hidden;
+        font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Custom scanline effect */
+      .scanlines {
+        background: linear-gradient(
+          to bottom,
+          rgba(255,255,255,0),
+          rgba(255,255,255,0) 50%,
+          rgba(0,0,0,0.1) 50%,
+          rgba(0,0,0,0.1)
+        );
+        background-size: 100% 4px;
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        pointer-events: none;
+        z-index: 40;
+      }
+      /* Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f172a; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #3b82f6; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2563eb; 
+      }
+      .glass-panel {
+        background: rgba(15, 23, 42, 0.7);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebGame",
+      "name": "Packet Tracer",
+      "url": "https://vickyiitp.tech/games/packet-tracer",
+      "author": {
+        "@type": "Person",
+        "name": "Vicky Kumar",
+        "url": "https://vickyiitp.tech",
+        "sameAs": [
+          "https://www.linkedin.com/in/vickyiitp",
+          "https://x.com/vickyiitp",
+          "https://github.com/vickyiitp"
+        ]
+      },
+      "description": "A browser-based network defense strategy game where you act as a SysAdmin routing packets.",
+      "genre": ["Strategy", "Simulation", "Educational"],
+      "inLanguage": "en"
+    }
+    </script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
